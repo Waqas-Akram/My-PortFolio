@@ -1,0 +1,199 @@
+
+.header-class-color{
+    background: #544a7d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  .landing-grid{
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin-left:-7px;
+    margin-top:-7px;
+    margin-bottom:-7px;
+    border-bottom: 20px solid  #847171;
+    opacity: 1;
+
+    
+  }
+  .avatar-image{
+      height: 200px;
+      border-radius:130px;
+      margin-top: 5px;
+      width: 200px;
+      
+  }
+  .banner-text{
+      width :80%;
+      margin:auto;
+      height: 100%;
+      
+      
+  }
+  .banner-text h1{
+      color:white;
+      text-align:center;
+      padding:10px;
+  }
+  .banner-text h3{
+    color:white;
+      text-align:center;
+      padding:10px;
+      font-family: 'Patrick Hand', cursive;
+  }
+  .banner-text p{
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-size:20px;
+    font-family: 'Patrick Hand', cursive;
+  }
+  .banner-text hr{
+      border-top: 3px dotted white;
+      width:74%;
+      margin:auto;
+      
+  }
+  .social-links{
+      display:flex;
+      justify-content:center;
+      
+      margin-top: -25px;
+      
+  }
+  .social-links a{
+      
+    padding:15px;
+    font-size:10em;
+    color:#fff;
+    transition: transform .2s;
+    
+
+  }
+  .social-links a:hover{
+    transform: scale(1.5);
+
+  }
+  /*For mobile Phones*/
+  [class*="col-"]{
+    width:100%;
+  }
+
+  @media only screen and (max-width:600px){
+    /* For Tablet */
+    .col-s-1{width:8.33%;}
+    .col-s-2{width:16.66%;}
+    .col-s-3{width:25%;}
+    .col-s-4{width:33.33%;}
+    .col-s-5{width:41.66%;}
+    .col-s-6{width:50%;}
+    .col-s-7{width:58.33%;}
+    .col-s-8{width:66.66%;}
+    .col-s-9{width:75%;}
+    .col-s-10{width:83.33%;}
+    .col-s-11{width:91.66%;}
+    .col-s-12{width:100%;}
+  }
+  @media only screen and (max-width:768px){
+    /* For Desktops */
+    .col-s-1{width:8.33%;}
+    .col-s-2{width:16.66%;}
+    .col-s-3{width:25%;}
+    .col-s-4{width:33.33%;}
+    .col-s-5{width:41.66%;}
+    .col-s-6{width:50%;}
+    .col-s-7{width:58.33%;}
+    .col-s-8{width:66.66%;}
+    .col-s-9{width:75%;}
+    .col-s-10{width:83.33%;}
+    .col-s-11{width:91.66%;}
+    .col-s-12{width:100%;}
+  }
+  .landing-grid button.a{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+  border-radius:0.12em;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    
+  }
+  .landing-grid button:hover{
+    color:#000000;
+    background-color:skyblue;
+    }
+    @media all and (max-width:30em){
+  landing-grid button{
+    display:block;
+    margin:0.4em auto;
+  }
+  .landing-grid a{
+    text-decoration: none;
+  }
+}
+/* .note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 340px;
+  margin: 16px;
+  float: left;
+  height: 300px;
+} */
+.contact-body{
+  margin:auto;
+  width:100%;height: 100%;
+  justify-content:center;
+  padding-top: 2em;
+
+}
+.contact-grid{
+  text-align: center;
+  justify-content:center;
+  width:80%;
+  height: 100%;
+  background:white;
+  color:#C75047;
+  margin-bottom: 20px;
+}
+.contact-grid h2 ,p{
+  font-family: 'Commissioner', sans-serif;
+
+}
+.contact-grid hr{
+  border-top: 5px dotted #C75047;width:50%;
+  margin: auto;
+}
+.contact-grid a{
+  text-decoration:none;
+  margin-left: 40px;
+  font-weight:bolder;
+  color:grey;
+  transition: transform .2s;
+}
+.contact-grid a:hover{
+  transform: scale(1.5);
+  color:green;
+  font-size: 20px;
+
+}
+.resume-right-col{
+  background:#242526;
+  color:white;
+  padding:2em;
+  width: 100%;
+}
+ .progressbar {
+  background-color: rgb(255,0,0);
+}

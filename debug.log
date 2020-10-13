@@ -1,0 +1,7 @@
+[1008/111030.925:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1009/221443.778:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\User\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\68577c22-cb37-497d-bd19-260e7be027e7: The system cannot find the path specified. (0x3)
+[1011/222556.246:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/150844.292:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1012/202236.879:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\User\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\37fad59b-d120-4857-999d-f9fd7a8b8443: The system cannot find the path specified. (0x3)
+[1013/104855.178:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1013/113832.553:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
