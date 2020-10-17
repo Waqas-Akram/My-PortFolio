@@ -5,6 +5,7 @@
   background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   
   }
+ 
   .landing-grid{
     background: #544a7d;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
@@ -180,12 +181,10 @@
   margin-left: 40px;
   font-weight:bolder;
   color:grey;
-  transition: transform .2s;
 }
 .contact-grid a:hover{
   transform: scale(1.5);
   color:green;
-  font-size: 20px;
 
 }
 .resume-right-col{
@@ -196,4 +195,22 @@
 }
  .progressbar {
   background-color: rgb(255,0,0);
+}
+.cards-link{
+  transition: transform .2s;
+}
+.card-link:hover{
+  transform: scale(0.8);
+
+}
+@media only screen and (max-width: 770px) {
+  .card-link{
+    width: 100%;
+  }
+}
+.material-icons {
+  color: rgb(219, 180, 180) !important;
+  background: #544a7d;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }

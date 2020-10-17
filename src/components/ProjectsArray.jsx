@@ -34,6 +34,13 @@ const ProjectsArray =[
         gitLink:"https://github.com/Waqas-Akram/Blog-Website",
         imageUrl:"/Images/Blog_image.png"
 
+    },
+    {
+        id:6,
+        projectName:"Covid-19 Tracker",
+        projectDiscription:"A web app use to find all covid-19 cases , Including deaths and recovered across the world",
+        gitLink:"https://github.com/Waqas-Akram/Covid-19-Tracker",
+        imageUrl:"/Images/covid.png"
     }
     
 ];
